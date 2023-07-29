@@ -1,4 +1,4 @@
-import { Copyright } from './components/Copyright'
+//import { Copyright } from './components/Copyright'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Todos } from './components/Todos'
@@ -36,7 +36,7 @@ const App: React.FC = () => {
           onClearCompleted={handleClearCompleted}
         />
       </div>
-      <Copyright />
+      
     </>
   )
 }
